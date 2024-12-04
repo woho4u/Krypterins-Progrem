@@ -1,11 +1,3 @@
-//hva slags algorytme er "aes-256-cbc"? er det andre AES algorytmer?
-//hva slags nøkkel er det som blir generert? er det en symmetrisk nøkkel?
-//hva er salt? hvorfor er det brukt her?
-//hva er iv? hvorfor er det brukt her?
-//hva er scryptSync? hva gjør den?
-//hva er createCipheriv? hva gjør den?
-//hva er createDecipheriv? hva gjør den?
-
 import { createCipheriv, createDecipheriv, randomBytes, scryptSync } from "crypto";
 import { readFileSync } from "fs";
 import * as readline from "readline";
