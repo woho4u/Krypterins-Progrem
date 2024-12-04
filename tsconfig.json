@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",         // ECMAScript version to compile to
+    "module": "commonjs",    // Module system (Node.js uses CommonJS)
+    "strict": true,          // Enable strict type checking
+    "outDir": "./dist",      // Output directory
+    "rootDir": "./src"       // Input directory
+  },
+  "include": ["src"],         // Files to include in compilation
+  "exclude": ["node_modules"] // Files to exclude
+}
